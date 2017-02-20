@@ -13,10 +13,13 @@
 }
 .page1 {
   height: 900px;
+  background: #cce6ff;
 }
 .page2 {
   height: 900px;
+  background: #ffce99;
 }
 .page3 {
   height:900px;
+  background: #ccff99;
 }
