@@ -1,9 +1,14 @@
+.nav {
+  background: purple;
+}
 .nav li {
   display: inline-block;
-  color: blue;
 }
-.nav {
-  background: orange;
+.nav a {
+  text-decoration: none;
+  color: pink;
+  padding: 10px;
+  text-align: center;
 }
 .page1 {
   height: 1000px;
