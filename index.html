@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html>  
 <head>
-    <title>REVARUS</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-  
     <script src="vendors/jquery.easings.min.js"></script>
+
     <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 
     <script type="text/javascript" src="jquery.fullPage.js"></script>
-    <script>
-
-        $(document).ready(function() {
+    <script type="text/javascrsipt">
+    $(document).ready(function() {
     $('#fullpage').fullpage({
-        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
         css3: true
     });
-
     </script>
     <style type="text/css">
-    .section {
-        text-align: center;
-        font-size: 5em;
+        .section {
+            font-size: 6em;
+            text-align: center;
         }
     </style>
-    </head>
-    <body>
- <div id="fullpage">
-     <div class="section">Main</div>
-    <div class="section"><div class="slide"> Slide 1 </div>
-    <div class="slide"> Slide 2 </div>
-    <div class="slide"> Slide 3 </div>
-    <div class="slide"> Slide 4 </div></div>
-    <div class="section"><h1>About</h1></div>
-    <div class="section">Contact</div>
+</head>
+<body>
+    <div id="fullpage">
+    <div class="section">one</div>
+    <div class="section">
+        <div class="slide"> Slide 1 </div>
+        <div class="slide"> Slide 2 </div>
+        <div class="slide"> Slide 3 </div>
+        <div class="slide"> Slide 4 </div>    
+    </div>
+    <div class="section">three</div>
+    <div class="section">four</div>
 </div>
-    </body>
+</body>
+    
 </html>
